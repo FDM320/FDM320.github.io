@@ -9,7 +9,7 @@ html {
     box-sizing: inherit;
 }
 
-.custom-body {
+body {
     margin: 60px auto;
     width: 70%;
     position: relative;
@@ -42,7 +42,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.custom-footer {
+footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     position: absolute;
