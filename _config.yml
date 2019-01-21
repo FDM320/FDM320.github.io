@@ -1,3 +1,4 @@
 name: Frank McGovern, Recent Graduate
 markdown: kramdown
 theme: jekyll-theme-slate
+permalink: /updates/:year/:month/:day/:title
