@@ -1,20 +1,6 @@
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 body {
     margin: 60px auto;
     width: 70%;
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 6rem;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -45,8 +31,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    position: absolute;
-    bottom: 0;
 }
 
 ul.posts { 
