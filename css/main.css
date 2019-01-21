@@ -17,11 +17,11 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: white;
+    color: ghostwhite;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: ghostwhite;
 }
 a:hover {
     text-decoration: underline;
