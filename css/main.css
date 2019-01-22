@@ -1,54 +1,210 @@
-body {
+.city_sunset {
     margin: 60px auto;
     width: 70%;
-    background-image: url('/images/backgrounds/couple_city_sunset.jpg');
+    background-image: url('/images/backgrounds/city_sunset.jpg');
+	background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
+.city_sunset_link {
+    text-decoration: none;
+    color: coral;
+}
+.city_sunset_link:hover {
+    text-decoration: underline;
+}
+
+.fireflies_gif {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/fireflies_gif.gif');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.fireflies_gif_link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+.fireflies_gif_link:hover {
+    text-decoration: underline;
+}
+
+.forest_sunset {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/forest_sunset.jpg');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.forest_sunset_link {
+	text-decoration: none;
+    color: aquamarine;
+}
+.forest_sunset_link:hover {
+	text-decoration: underline;
+}
+#forest_sunset {
+	color: white;	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.stars_in_space {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/stars_in_space.jpg');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.stars_in_space_link {
+	text-decoration: none;
+    color: yellow;
+}
+.stars_in_space_link:hover {
+	text-decoration: underline;
+}
+
+.neon_delorean {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/neon_delorean.png');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 deeppink, 0 0.5px deeppink, 0.5px 0 deeppink, 0 -0.5px deeppink;
+}
+.neon_delorean_link {
+	text-decoration: none;
+    color: darkslategray;
+}
+.neon_delorean_link:hover {
+	text-decoration: underline;
+}
+
+.calvin_and_hobbes {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/calvin_and_hobbes.jpg');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+}
+.calvin_and_hobbes_link {
+    text-decoration: none;
+    color: navy;
+}
+.calvin_and_hobbes_link:hover {
+    text-decoration: underline;
+}
+
+.rocket_launch {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/rocket_launch.jpg');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 orangered, 0 0.5px orangered, 0.5px 0 orangered, 0 -0.5px orangered;
+}
+.rocket_launch_link {
+    text-decoration: none;
+    color: yellow;
+}
+.rocket_launch_link:hover {
+    text-decoration: underline;
+}
+
+.dice {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/dice.jpg');
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.dice_link {
+    text-decoration: none;
+    color: yellow;
+}
+.dice_link:hover {
+    text-decoration: underline;
+}
+#dice {
+	background-color: rgb(0,0,255,0.5);
+}
+
+#skills {
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	border-collapse: collapse;
+	width: 100%;
+}
+#skills td, #skills th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#skills tr:hover{background-color: black;}
+#skills th {
+	paddingtop: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	ext-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: white;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: white;
-}
-a {
-    text-decoration: none;
-    color: skyblue;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: white;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: white;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    color: white;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    color: white;
 }
 
 ul.posts li {
     list-style: none;
-    color: white;
 }

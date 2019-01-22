@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Frank "Dave" McGovern, Recent Graduate
+body-type: city_sunset
+link-type: city_sunset_link
+title: Home
 ---
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Home</h1>
-				<p>
-				Hello everyone! I'm Frank "Dave" McGovern. <br>
-				Feel free to read more <a href="/about">about</a> me, or check out my <a href="/resume">resume</a>. <br>
-				I will post project <a href="/updates">updates</a> explaining what I've been doing, so have a look!
-				</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+<div class="container">
+	<div class="blurb">
+		<h1>{{ page.title }}</h1>
+		<p>
+			Hello everyone! I'm Frank "Dave" McGovern. <br>
+			Feel free to read more <a class="{{ page.link-type }}" href="/about">about</a> me, or check out my <a class="{{ page.link-type }}" href="/resume">resume</a>. <br>
+			I will post <a class="{{ page.link-type }}" href="/projects">projects</a> and <a class="{{ page.link-type }}" href="/updates">updates</a> explaining what I've been working on, so have a look!
+		</p>
+    </div>
+</div>

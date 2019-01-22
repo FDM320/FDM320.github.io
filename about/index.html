@@ -1,17 +1,87 @@
 ---
 layout: default
-title: About Frank "Dave" McGovern
+body-type: forest_sunset
+link-type: forest_sunset_link
+title: About
 ---
-		<div class="container">
-    		<div class="blurb">
-        		<h1>About</h1>
-				<p>
-				My name is Frank McGovern, but I prefer to use my middle name Dave. <br> 
-				I recently graduated from Binghamton University with a Bachelor's in Computer Science. <br>
-				I grew up in North Branford, Connecticut, but I currently live in Endwell, New York. <br>
-				I'm currently looking for a Software Engineer position in Boston, Massachusetts, as I love that city. <br>
-				If you're currently hiring for a job, and you think that I'd be a good fit, please reach out to me! <br>
-				<br> Check out my <a href="/resume">resume</a>, and also the extended list of skills that I bring to the table: 
-				</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+<div class="container">
+	<div class="blurb">
+  		<h1>{{ page.title }}</h1>
+		<p id="{{ page.body-type }}">
+			My name is Frank McGovern, but I prefer to use my middle name Dave. <br> 
+			I recently graduated from Binghamton University with a Bachelor's in Computer Science. <br>
+			I grew up in North Branford, Connecticut, but I currently live in Endwell, New York. <br>
+			I'm currently looking for a Software Engineer position in Boston, Massachusetts, as I love that city. <br>
+			If you're currently hiring for a job, and you think that I'd be a good fit, please reach out to me! <br>
+			<br> Check out my <a class="{{ page.link-type }}" href="/resume">resume</a>, and also the extended list of skills that I bring to the table (pun intended): <br>
+			<table id="skills">
+				<tr>
+					<th>Languages</th>
+					<th>Software</th>
+				</tr>
+				<tr>
+					<td>C++</td>
+					<td>Visual Studio</td>
+				</tr>
+				<tr>
+					<td>Java</td>
+					<td>Eclipse</td>
+				</tr>
+					<td>Python</td>
+					<td>PyCharm</td>
+				<tr>	
+					<td>C</td>
+					<td>Unix</td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td>Linux</td>
+				</tr>
+				<tr>
+					<td>SQL</td>
+					<td>SQLite</td>
+				</tr>
+				<tr>
+					<td>Git</td>
+					<td>GitHub</td>
+				</tr>
+				<tr>
+					<td>HTML5</td>
+					<td>Selenium</td>
+				</tr>	
+				<tr>	
+					<td>CSS3</td>
+					<td>Android Studio</td>
+				</tr>	
+				<tr>	
+					<td>C#</td>
+					<td>.NET</td>
+				</tr>	
+				<tr>	
+					<td>Ruby</td>
+					<td>Rails</td>
+				</tr>	
+				<tr>	
+					<td>Markdown</td>
+					<td>Unity</td>
+				</tr>	
+				<tr>	
+					<td>Prolog</td>
+					<td>OpenGL</td>
+				</tr>	
+				<tr>	
+					<td>Haskell</td>
+					<td>Ayam</td>
+				</tr>	
+				<tr>	
+					<td>X-86 Assembly</td>
+					<td></td>
+				</tr>	
+				<tr>	
+					<td>LC-3</td>
+					<td></td>
+				</tr>	
+			</table>	
+		</p>
+	</div>
+</div>
