@@ -1,6 +1,5 @@
-name: Frank McGovern, Recent Graduate
+title: Home
 markdown: kramdown
-theme: jekyll-theme-slate
 permalink: /updates/:year/:month/:day/:title
 github: [metadata]
 encoding: UTF-8
