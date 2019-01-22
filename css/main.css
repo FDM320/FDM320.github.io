@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -25,6 +26,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -44,6 +46,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -67,6 +70,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -78,6 +82,26 @@
 	text-decoration: underline;
 }
 
+.stars_atmosphere {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/stars_atmosphere.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+	background-color: black;
+	color: white;
+	text-shadow: -0.5px 0 blue, 0 0.5px blue, 0.5px 0 blue, 0 -0.5px blue;
+}
+.stars_atmosphere_link {
+    text-decoration: none;
+    color: skyblue;
+}
+.stars_atmosphere_link:hover {
+    text-decoration: underline;
+}
+
 .neon_delorean {
 	margin: 60px auto;
     width: 70%;
@@ -86,6 +110,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 deeppink, 0 0.5px deeppink, 0.5px 0 deeppink, 0 -0.5px deeppink;
 }
@@ -105,6 +130,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;
 	color: white;
 }
 .calvin_and_hobbes_link {
@@ -119,10 +145,11 @@
 	margin: 60px auto;
     width: 70%;
     background-image: url('/images/backgrounds/rocket_launch.jpg');
-	background-size:cover;
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 orangered, 0 0.5px orangered, 0.5px 0 orangered, 0 -0.5px orangered;
 }
@@ -134,14 +161,35 @@
     text-decoration: underline;
 }
 
+.rocket_color_launch {
+	margin: 60px auto;
+    width: 70%;
+    background-image: url('/images/backgrounds/rocket_color_launch.jpg');
+	background-size: 35% 125%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+	background-color: black;
+	color: white;
+	text-shadow: -0.5px 0 purple, 0 0.5px purple, 0.5px 0 purple, 0 -0.5px purple;
+}
+.rocket_color_launch_link {
+    text-decoration: none;
+    color: yellow;
+}
+.rocket_color_launch_link:hover {
+    text-decoration: underline;
+}
+
 .dice {
 	margin: 60px auto;
     width: 70%;
     background-image: url('/images/backgrounds/dice.jpg');
-	background-size:cover;
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
