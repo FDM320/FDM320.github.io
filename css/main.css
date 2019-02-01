@@ -40,7 +40,7 @@ header,
 	}
 /* ----------------------------------------- */
 
-
+/* Make the navbar black. */
 /* Customize the navbar. */  
 	/* Change attributes of the navbar. */
 	.custom-navbar-dark {
@@ -64,6 +64,37 @@ header,
 	}
 	/* Change attributes of the active page. */
 	.custom-navbar-dark .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+/* Make the navbar yellow. */
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar-yellow {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar-yellow .navbar-brand {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of the text. */
+	.custom-navbar-yellow .navbar-text {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of links. */
+	.custom-navbar-yellow .navbar-nav .nav-link {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar-yellow .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar-yellow .nav-item.active .nav-link {
 		text-decoration: underline;
 	}
 /* ----------------------------------------- */
@@ -269,7 +300,7 @@ header,
 	color: yellow;
 }
 #dice {
-	background-color: rgb(0,0,255,0.5);
+	background-color: rgb(0,0,255,0.4);
 }
 
 nav ul, footer ul {

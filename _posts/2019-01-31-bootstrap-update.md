@@ -1,7 +1,8 @@
 ---
 layout: post
 bg-img: /images/backgrounds/neon_city.png
-light-or-dark: custom-navbar
+custom-navbar-top: custom-navbar
+custom-navbar-bottom: custom-navbar
 title: "Bootstrap Update!"
 date: 2019-01-31
 ---

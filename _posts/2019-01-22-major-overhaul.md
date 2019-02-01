@@ -3,7 +3,8 @@ layout: post
 bg-img: /images/backgrounds/rocket_color_launch.jpg
 body-type: rocket_color_launch
 link-type: rocket_color_launch_link
-light-or-dark: custom-navbar
+custom-navbar-top: custom-navbar
+custom-navbar-bottom: custom-navbar
 title: "Major overhaul!"
 date: 2019-01-22
 ---
