@@ -3,6 +3,7 @@ layout: post
 bg-img: /images/backgrounds/neon_city.png
 custom-navbar-top: custom-navbar
 custom-navbar-bottom: custom-navbar
+margin-correction: margin-correction-bootstrap-update
 title: "Bootstrap Update!"
 date: 2019-01-31
 ---

@@ -7,7 +7,7 @@ light-or-dark: {{ page.light-or-dark}}
 ---
 <div class="container h-100">
 						<div class="d-flex align-items-center justify-content-center h-100 align">
-							<div class="d-flex flex-column text-center">
+							<div class="d-flex flex-column text-center {{ page.margin-correction }}">
 								<h1 class="{{ page.body-type }}">{{ page.title }}</h1>
 								<h4 class="meta {{ page.body-type }}">{{ page.date | date_to_string }}</p>
 

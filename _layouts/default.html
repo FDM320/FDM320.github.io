@@ -29,14 +29,17 @@
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-		<!-- My stylesheet -->
+		<!-- My media queries  -->
+		<link rel="stylesheet" type="text/css" href="/css/media-queries.css">
+		
+		<!-- My main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		
 		<title>{{ page.title }}</title>
-		
+			
 	</head>
 	<body style="background: url({{ page.bg-img }}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
-    	<header>
+		<header>
     		<!-- Start of Top Navbar -->
     		<nav class="navbar navbar-expand-lg fixed-top {{ page.custom-navbar-top }}">
     			<div class="container-fluid">
@@ -93,13 +96,26 @@
     		</nav>
     		<!-- End of Bottom Navbar -->
     	</footer>	
-    	<!-- JQuery -->	
+		<!-- JQuery -->	
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    		<!-- Popper.js -->
-    		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    		<!-- Bootstrap JavaScript -->
-    		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    		<!-- My toggle_icon script -->
-			<script src="/javascript/toggle_icon.js"></script>
-    </body>	
+    	<!-- Popper.js -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<!-- Bootstrap JavaScript -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    	<!-- My toggle_icon script -->
+		<script src="/javascript/toggle_icon.js"></script>
+		<!-- My navbar background scrolling script -->
+		<script>
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if(scroll > 0){
+					$('.{{ page.custom-navbar-top }}').css('background', 'rgba(0,0,0,.5');
+				} 
+				else{
+					$('.{{ page.custom-navbar-top }}').css('background', 'rgba(0, 0, 0, 0)');
+				}
+			});
+		</script>
+		
+	</body>	
 </html>
