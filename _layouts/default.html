@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132791957-1"></script>
 		<script>
@@ -10,38 +13,93 @@
 
 			gtag('config', 'UA-132791957-1');
 		</script>
+		
+		<!-- Webcomponents Bundle -->
 		<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.js"></script>
+		
+		<!-- Zero-md Markdown displayer -->
 		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/build/zero-md.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-		<meta property="og:site_name" content="Frank &ldquo;Dave&rdquo; McGovern, Recent Graduate"/>
-		<meta property="og:title" content="{{ page.title }}"/>
-		<meta property="og:description" content="I made this site to showcase some of the projects that I'm working on. I hope you like it!"/>
-		<meta property="og:image" content="https://fdm320.github.io/images/backgrounds/city_sunset.jpg">
-		<meta property="og:url" content="https://fdm320.github.io">
-		<meta property="og:type" content="website"/>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+		<!-- My stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		
+		<title>{{ page.title }}</title>
+		
 	</head>
-	<body class= {{ page.body-type }}>
-		<nav>
-			<ul>
-				<li><a class="{{ page.link-type }}" href="/">Home</a></li>
-				<li><a class="{{ page.link-type }}" href="/about">About</a></li>
-				<li><a class="{{ page.link-type }}" href="/resume">Resume</a></li>
-				<li><a class="{{ page.link-type }}" href="/projects">Projects</a></li>
-				<li><a class="{{ page.link-type }}" href="/updates">Updates</a></li>
-			</ul>
-		</nav>
-		<div class="container">
-			{{ content }}
-		</div><!-- /.container -->
+	<body style="background: url({{ page.bg-img }}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+    	<header>
+    		<!-- Start of Top Navbar -->
+    		<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    			<div class="container-fluid">
+    				<a class="navbar-brand" href="#"><strong> FDM </strong><i class="fas fa-cat"></i></a>
+    				<button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="#top-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    					<i class="custom-toggle-top fas fa-angle-down"></i>
+    				</button>
+    				<div class="collapse navbar-collapse" id="top-navbar">
+    					<ul class="navbar-nav mr-auto">
+    						<li class="nav-item active">
+    							<a class="nav-link" href="https://fdm320.github.io">Home<span class="sr-only">(current)</span></a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link" href="https://fdm320.github.io/about">About</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link" href="https://fdm320.github.io/resume">Resume</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link" href="https://fdm320.github.io/projects">Projects</a>
+    						</li>
+    						<li class="nav-item">
+    							<a class="nav-link" href="https://fdm320.github.io/updates">Updates</a>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+    		</nav>
+    		<!-- End of Top Navbar -->	
+			<!-- Start of Unique Page Content -->
+				<div class="container h-100">
+					{{ content }}
+				</div>	
+				<!-- End of Unique Page Content -->
+		</header>
 		<footer>
-			<ul>
-				<li><a class="{{ page.link-type }}" href="mailto:fdmcgov@gmail.com">Email</a></li>
-				<li><a class="{{ page.link-type }}" href="https://github.com/FDM320" target="_blank">GitHub Profile</a></li>
-			</ul>
-		</footer>
-	</body>
+    	    <!-- Start of Bottom Navbar -->
+    		<nav class="navbar navbar-expand-lg fixed-bottom {{ page.light-or-dark }}">
+    			<div class="container-fluid">
+    				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bottom-navbar" aria-controls="#bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    						<i class="custom-toggle-bottom fas fa-angle-up"></i> <i class="far fa-address-card"></i>
+    				</button>
+    				<div class="collapse navbar-collapse" id="bottom-navbar">
+    					<ul class="navbar-nav ml-auto">
+    						<li class="nav-item ml-auto">
+    							<a class="nav-link" href="mailto:fdmcgov@gmail.com">Email</a>
+    						</li>
+    						<li class="nav-item ml-auto">
+    							<a class="nav-link" href="https://github.com/FDM320" target="_blank">GitHub Profile</a>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>	
+    		</nav>
+    		<!-- End of Bottom Navbar -->
+    	</footer>	
+    	<!-- JQuery -->	
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    		<!-- Popper.js -->
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    		<!-- Bootstrap JavaScript -->
+    		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    		<!-- My toggle_icon script -->
+			<script src="/javascript/toggle_icon.js"></script>
+    </body>	
 </html>

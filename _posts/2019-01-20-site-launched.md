@@ -1,7 +1,9 @@
 ---
 layout: post
-body-type: rocket_launch
+bg-img: /images/backgrounds/rocket_launch.jpg
+body-type:
 link-type: rocket_launch_link
+light-or-dark: custom-navbar
 title: "Site Launched!"
 date: 2019-01-20
 ---

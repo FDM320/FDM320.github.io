@@ -1,16 +1,20 @@
 ---
 layout: default
+bg-img: images/backgrounds/city_sunset.jpg
 body-type: city_sunset
 link-type: city_sunset_link
+light-or-dark: custom-navbar
 title: Home
 ---
-<div class="container">
-	<div class="blurb">
-		<h1>{{ page.title }}</h1>
-		<p>
+
+<div class="container h-100">
+	<div class="d-flex align-items-center justify-content-center h-100 align">
+		<div class="d-flex flex-column text-center">
+			<h1><strong>{{ page.title }}</strong></h1>
+			<h4>			
 			Hello everyone! I'm Frank "Dave" McGovern. <br>
 			Feel free to read more <a class="{{ page.link-type }}" href="/about">about</a> me, or check out my <a class="{{ page.link-type }}" href="/resume">resume</a>. <br>
 			I will post <a class="{{ page.link-type }}" href="/projects">projects</a> and <a class="{{ page.link-type }}" href="/updates">updates</a> explaining what I've been working on, so have a look!
-		</p>
-    </div>
+		</div>
+	</div>
 </div>

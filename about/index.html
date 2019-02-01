@@ -1,87 +1,163 @@
 ---
 layout: default
+bg-img: /images/backgrounds/forest_sunset.jpg
 body-type: forest_sunset
 link-type: forest_sunset_link
+light-or-dark: custom-navbar
 title: About
 ---
-<div class="container">
-	<div class="blurb">
-  		<h1>{{ page.title }}</h1>
-		<p id="{{ page.body-type }}">
+    		
+<div class="d-flex align-items-center justify-content-center h-100 align-self-center" id="content">
+	<div class="d-flex flex-column text-center">
+		<a name="content"></a>
+		<h1><strong>{{ page.title }}</strong></h1>
+		<h4>
 			My name is Frank McGovern, but I prefer to use my middle name Dave. <br> 
 			I recently graduated from Binghamton University with a Bachelor's in Computer Science. <br>
 			I grew up in North Branford, Connecticut, but I currently live in Endwell, New York. <br>
 			I'm currently looking for a Software Engineer position in Boston, Massachusetts, as I love that city. <br>
-			If you're currently hiring for a job, and you think that I'd be a good fit, please reach out to me! <br>
-			<br> Check out my <a class="{{ page.link-type }}" href="/resume">resume</a>, and also the extended list of skills that I bring to the table (pun intended): <br>
-			<table id="skills">
-				<tr>
-					<th>Languages</th>
-					<th>Software</th>
-				</tr>
-				<tr>
-					<td>C++</td>
-					<td>Visual Studio</td>
-				</tr>
-				<tr>
-					<td>Java</td>
-					<td>Eclipse</td>
-				</tr>
-					<td>Python</td>
-					<td>PyCharm</td>
-				<tr>	
-					<td>C</td>
-					<td>Unix</td>
-				</tr>
-				<tr>
-					<td>JavaScript</td>
-					<td>Linux</td>
-				</tr>
-				<tr>
-					<td>SQL</td>
-					<td>SQLite</td>
-				</tr>
-				<tr>
-					<td>Git</td>
-					<td>GitHub</td>
-				</tr>
-				<tr>
-					<td>HTML5</td>
-					<td>Selenium</td>
-				</tr>	
-				<tr>	
-					<td>CSS3</td>
-					<td>Android Studio</td>
-				</tr>	
-				<tr>	
-					<td>C#</td>
-					<td>.NET</td>
-				</tr>	
-				<tr>	
-					<td>Ruby</td>
-					<td>Rails</td>
-				</tr>	
-				<tr>	
-					<td>Markdown</td>
-					<td>Unity</td>
-				</tr>	
-				<tr>	
-					<td>Prolog</td>
-					<td>OpenGL</td>
-				</tr>	
-				<tr>	
-					<td>Haskell</td>
-					<td>Ayam</td>
-				</tr>	
-				<tr>	
-					<td>X-86 Assembly</td>
-					<td></td>
-				</tr>	
-				<tr>	
-					<td>LC-3</td>
-					<td></td>
-				</tr>	
-			</table>	
-		</p>
+			If you're currently hiring for a job, and you think that I'd be a good fit, please reach out to me! <br> <br>
+			Check out my <a class="{{ page.link-type }}" href="/resume">resume</a>, and also the extended list of skills that I bring to the <a class ="{{ page.link-type }}" href="#table">table</a> (pun intended): <br> <br>
+		</h4>
 	</div>
 </div>
+<div class="d-flex flex-column text-center">
+	<a name="table"><h4>Skills and Knowledge</h4></a>
+	<div class="table-responsive">
+		<table class="table table-sm" id="forest_sunset">
+			<thead>
+				<tr>
+					<th scope="col"></th>
+					<th scope="col">Languages</th>
+					<th scope="col">Tools and Technologies</th>
+					<th scope="col">Industry Knowledge</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row"></th>
+					<td>C++</td>
+					<td>Visual Studio</td>
+					<td>Databases</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Java</td>
+					<td>Eclipse</td>
+					<td>Object-Oriented Programming</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Python</td>
+					<td>PyCharm</td>
+					<td>Object-Oriented Design</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>C</td>
+					<td>Unix</td>
+					<td>Algorithms</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>JavaScript</td>
+					<td>Linux</td>
+					<td>Agile Methodologies</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>SQL</td>
+					<td>SQLite</td>
+					<td>Scrum</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Git</td>
+					<td>GitHub</td>
+					<td>Web Development</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>HTML5</td>
+					<td>Bootstrap</td>
+					<td>Technical Support</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>CSS3</td>
+					<td>Selenium</td>
+					<td>Software Development Life Cycle</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>C#</td>
+					<td>.NET</td>
+					<td>Testing</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Python</td>
+					<td>PyCharm</td>
+					<td>Test-Driven Development</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Ruby</td>
+					<td>Rails</td>
+					<td>Behavior-Driven Development</td>
+				</tr><tr>
+					<th scope="row"></th>
+					<td>Markdown</td>
+					<td>Android Studio</td>
+					<td>Software as a Service</td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>OpenGL</td>
+					<td>Unity</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Prolog</td>
+					<td>Ayam</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>Haskell</td>
+					<td>Arduino</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>x86 Assembly</td>
+					<td>JUnit</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td>LC-3</td>
+					<td>jQuery</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td></td>
+					<td>PivotalTracker</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td></td>
+					<td>Slack</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<td colspan="3"><h6><a class ="{{ page.link-type }}" href="#content">Back to Top</a></h6></td>
+			</tbody>
+		</table>
+	</div>
+	<br>
+</div>	

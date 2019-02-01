@@ -1,12 +1,141 @@
+/* Smooth scrolling links. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Don't change this. This is required for the full background image. */
+html,
+body,
+header,
+.view {
+	height: 100%;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar .navbar-brand {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of the text. */
+	.custom-navbar .navbar-text {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of links. */
+	.custom-navbar .navbar-nav .nav-link {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar-dark {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar-dark .navbar-brand {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of the text. */
+	.custom-navbar-dark .navbar-text {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of links. */
+	.custom-navbar-dark .navbar-nav .nav-link {
+		color: rgba(0,0,0,1);
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar-dark .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar-dark .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+.fa-angle-down {
+	color: white;
+}	
+
+.fa-angle-up {
+	color: white;
+}
+
+.custom-navbar-dark .fa-angle-down {
+	color: black;
+}	
+
+.custom-navbar-dark .fa-angle-up {
+	color: black;
+}
+
+.fa-caret-down {
+	color: white;
+}
+
+.fa-caret-up {
+	color: white;
+}
+	
+.fa-address-card {
+	color: white;
+}
+
+.custom-navbar-dark .fa-address-card {
+	color: black;
+}
+
+.dropdown-menu a:hover {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-menu {
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+}
+
+.dropdown-item {
+	font-weight: bold;
+	color: white;
+}
+	
+ #brand {
+	 text-decoration: none;
+	 color: white;
+ }
+ 
+.white_link {
+	text-decoration: none;
+	color: white;
+}
+
+.white_link:hover {
+	text-decoration: underline;
+	color: white;
+}
+ 
 .city_sunset {
-    margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/city_sunset.jpg');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -16,17 +145,10 @@
 }
 .city_sunset_link:hover {
     text-decoration: underline;
+	color: coral;
 }
 
-.fireflies_gif {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/fireflies_gif.gif');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;	
+.fireflies_gif {	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -36,17 +158,10 @@
 }
 .fireflies_gif_link:hover {
     text-decoration: underline;
+	color: lightseagreen;
 }
 
-.forest_sunset {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/forest_sunset.jpg');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;	
+.forest_sunset {	
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -56,6 +171,7 @@
 }
 .forest_sunset_link:hover {
 	text-decoration: underline;
+	color: aquamarine;
 }
 #forest_sunset {
 	color: white;	
@@ -63,14 +179,6 @@
 }
 
 .stars_in_space {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/stars_in_space.jpg');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -80,17 +188,10 @@
 }
 .stars_in_space_link:hover {
 	text-decoration: underline;
+	color: yellow;
 }
 
 .stars_atmosphere {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/stars_atmosphere.png');
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 blue, 0 0.5px blue, 0.5px 0 blue, 0 -0.5px blue;
 }
@@ -100,37 +201,24 @@
 }
 .stars_atmosphere_link:hover {
     text-decoration: underline;
+	color: skyblue;
 }
 
 .neon_delorean {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/neon_delorean.png');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 deeppink, 0 0.5px deeppink, 0.5px 0 deeppink, 0 -0.5px deeppink;
 }
 .neon_delorean_link {
 	text-decoration: none;
-    color: darkslategray;
+    color: yellow;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 .neon_delorean_link:hover {
 	text-decoration: underline;
+	color: yellow;
 }
 
 .calvin_and_hobbes {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/calvin_and_hobbes.jpg');
-	background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 }
 .calvin_and_hobbes_link {
@@ -139,17 +227,10 @@
 }
 .calvin_and_hobbes_link:hover {
     text-decoration: underline;
+	color: navy;
 }
 
 .rocket_launch {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/rocket_launch.jpg');
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 orangered, 0 0.5px orangered, 0.5px 0 orangered, 0 -0.5px orangered;
 }
@@ -159,19 +240,12 @@
 }
 .rocket_launch_link:hover {
     text-decoration: underline;
+	color: yellow;
 }
 
 .rocket_color_launch {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/rocket_color_launch.jpg');
-	background-size: 35% 125%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
-	text-shadow: -0.5px 0 purple, 0 0.5px purple, 0.5px 0 purple, 0 -0.5px purple;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .rocket_color_launch_link {
     text-decoration: none;
@@ -179,17 +253,10 @@
 }
 .rocket_color_launch_link:hover {
     text-decoration: underline;
+	color: yellow;
 }
 
 .dice {
-	margin: 60px auto;
-    width: 70%;
-    background-image: url('/images/backgrounds/dice.jpg');
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-	background-color: black;
 	color: white;
 	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
@@ -199,31 +266,10 @@
 }
 .dice_link:hover {
     text-decoration: underline;
+	color: yellow;
 }
 #dice {
 	background-color: rgb(0,0,255,0.5);
-}
-
-#skills {
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	border-collapse: collapse;
-	width: 100%;
-}
-#skills td, #skills th {
-	border: 1px solid #ddd;
-	padding: 8px;
-	text-align: center;
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-#skills tr:hover{background-color: black;}
-#skills th {
-	paddingtop: 12px;
-	padding-bottom: 12px;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	ext-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 nav ul, footer ul {
@@ -237,19 +283,18 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	color: rgba(255,255,255,1);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+h4 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-size: .8em;
 }
 ul.posts { 
-    margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
