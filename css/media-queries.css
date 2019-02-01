@@ -59,9 +59,16 @@
 			}
 		}
 
-		/* 4k UHD */
 		@media (min-width: 1281px) {
 			.margin-correction-about-content {
+				margin-top: 0em;
+				margin-bottom: 0em;
+			}
+		}
+		
+		/* 4k UHD */
+		@media (min-width: 2000px) {
+			.margin-correction-about-table {
 				margin-top: -20em !important;
 				margin-bottom: 0em;
 			}
@@ -206,7 +213,7 @@
 		
 		@media (min-width: 1281px) {
 			.margin-correction-about-table {
-				margin-top: -20em !important;
+				margin-top: 0em;
 				margin-bottom: 0em;
 			}
 		}
