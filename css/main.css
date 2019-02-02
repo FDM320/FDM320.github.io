@@ -115,6 +115,14 @@ header,
 	color: black;
 }
 
+.custom-navbar-yellow .fa-angle-down {
+	color: yellow;
+}	
+
+.custom-navbar-yellow .fa-angle-up {
+	color: yellow;
+}
+
 .fa-caret-down {
 	color: white;
 }
@@ -129,6 +137,10 @@ header,
 
 .custom-navbar-dark .fa-address-card {
 	color: black;
+}
+
+.custom-navbar-yellow .fa-address-card {
+	color: yellow;
 }
 
 .dropdown-menu a:hover {
